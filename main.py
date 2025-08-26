@@ -33,7 +33,6 @@ def slot_machine():
 
         print("Girando...\n")
 
-        # Simulação da roleta girando
         for _ in range(15):  # número de "giros" animados
             giro = [random.choice(frutas) for _ in range(3)]
             print(" ".join(giro), end="\r", flush=True)  
@@ -57,4 +56,5 @@ def slot_machine():
     print(f"Você terminou com {saldo} moedas.")
 
 if __name__ == "__main__":
+
     slot_machine()
