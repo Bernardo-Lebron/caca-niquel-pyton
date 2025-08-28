@@ -54,7 +54,7 @@ def slot_machine():
 
     print("\n🔚 Jogo encerrado!")
     print(f"Você terminou com {saldo} moedas.")
-
 if __name__ == "__main__":
 
     slot_machine()
+
